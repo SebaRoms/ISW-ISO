@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.10.15)  26 OCT 2012 09:05
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.8.17)  26 OCT 2012 12:16
 entering extended mode
  %&-line parsing enabled.
 **"ISW ISO.tex"
@@ -1164,7 +1164,7 @@ LaTeX Font Warning: Size substitutions with differences
  ) 
 Here is how much of TeX's memory you used:
  15614 strings out of 495061
- 289109 string characters out of 1182620
+ 289109 string characters out of 1182621
  359948 words of memory out of 3000000
  18331 multiletter control sequences out of 15000+50000
  6407 words of font info for 23 fonts, out of 3000000 for 9000
@@ -1175,7 +1175,7 @@ re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/
 type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/pub
 lic/amsfonts/cm/cmssi10.pfb>
-Output written on "ISW ISO.pdf" (21 pages, 271239 bytes).
+Output written on "ISW ISO.pdf" (21 pages, 271253 bytes).
 PDF statistics:
  822 PDF objects out of 1000 (max. 8388607)
  56 named destinations out of 1000 (max. 500000)
