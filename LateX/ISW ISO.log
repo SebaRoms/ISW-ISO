@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.10.15)  26 OCT 2012 13:24
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.10.15)  26 OCT 2012 17:37
 entering extended mode
  %&-line parsing enabled.
 **"ISW ISO.tex"
@@ -1162,13 +1162,23 @@ File: Imagenes/Orga.jpg Graphic file (type jpg)
 
 ] [32
 
+] [33
+
+] [34
+
+] [35
+
+] [36
+
+] [37
+
 ]
-Overfull \hbox (84.57689pt too wide) in paragraph at lines 152--152
+Overfull \hbox (84.57689pt too wide) in paragraph at lines 213--213
 \OT1/cmss/m/n/10.95 http://es.pdfsb.com/readonline/5a56464364516835575846394358
 706755554d3d- 
  []
 
-[33
+[38
 
  </usr/share/texmf/tex/latex/beamer/base/art/beamericonarticle.pdf>]
 \tf@nav=\write6
@@ -1188,23 +1198,23 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 15658 strings out of 495061
- 289789 string characters out of 1182620
- 361948 words of memory out of 3000000
- 18347 multiletter control sequences out of 15000+50000
+ 15691 strings out of 495061
+ 290457 string characters out of 1182620
+ 367948 words of memory out of 3000000
+ 18370 multiletter control sequences out of 15000+50000
  6407 words of font info for 23 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  49i,20n,62p,425b,768s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Outline0.2.4.23} has been referenced but does not
+pdfTeX warning (dest): name{Outline0.2.4.32} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{Outline0.2.3.22} has been referenced but does not e
+pdfTeX warning (dest): name{Outline0.2.3.31} has been referenced but does not e
 xist, replaced by a fixed one
 
-pdfTeX warning (dest): name{Outline0.2.2.21} has been referenced but does not e
+pdfTeX warning (dest): name{Outline0.2.2.30} has been referenced but does not e
 xist, replaced by a fixed one
 
-pdfTeX warning (dest): name{Outline0.2.1.20} has been referenced but does not e
+pdfTeX warning (dest): name{Outline0.2.1.29} has been referenced but does not e
 xist, replaced by a fixed one
 
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share
@@ -1212,9 +1222,9 @@ xist, replaced by a fixed one
 ive/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/ty
 pe1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/publi
 c/amsfonts/cm/cmssi10.pfb>
-Output written on "ISW ISO.pdf" (33 pages, 366672 bytes).
+Output written on "ISW ISO.pdf" (38 pages, 409464 bytes).
 PDF statistics:
- 1229 PDF objects out of 1440 (max. 8388607)
- 84 named destinations out of 1000 (max. 500000)
- 174 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1401 PDF objects out of 1440 (max. 8388607)
+ 94 named destinations out of 1000 (max. 500000)
+ 180 words of extra memory for PDF output out of 10000 (max. 10000000)
 
