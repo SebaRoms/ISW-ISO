@@ -1,4 +1,4 @@
-\documentclass[]{beamer}
+\documentclass{beamer}
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
 
@@ -58,7 +58,7 @@
 				Existen una gran cantidad de metodologías, las cuales pueden estar enfocadas al desarrollo en sí, a la gestión, a la calidad, al desarrollador, como también puede ser una mezcla.\\
 				\smallskip
 				Personal Software Process, es una metodolog\'ia enfocada a la calidad del desarrollo del software a nivel personal, la cual se basa en factores que veremos más adelante.
-			\end{frame}						
+			\end{frame}		
 			
 		\subsection{Historia}
 			\begin{frame}{Historia}
@@ -228,20 +228,398 @@
 				A la IEC se le debe el desarrollo y difusión de los estandares para algunas unidades de medida tales como Gauss, Hercio, Weber; Así como la propuesta de una sistema de unidades estándar. Numerosas Normas se desarrollan en conjunto con la ISO (normas ISO/IEC).
 			\end{frame}
 			
-		\subsection{Historia}
-			\begin{frame}{Historia}
+			\subsection{Historia}
+				\begin{frame}{Un poco de Historia}
+					\begin{itemize}
+						\item La norma surge a principios de la década de los noventa, como un estándar internacional.
+						\item Es una norma conjunta entre ISO e IEC.
+						\item Fue el Comité conjunto JTC1 quien construye la norma
+						\item Su principal motivación fue establecer un marco de trabajo común a la ingeniería del software. Aplicable a la Ingeniería y a la gestión.
+					\end{itemize}
+				\end{frame}
 				
+				\begin{frame}{ISO/IEC 12207}
+					\begin{definition}
+						Es el estándar para los procesos de ciclo de vida del software de la organización ISO
+					
+					\end{definition}
+				\end{frame}
+				
+				\begin{frame}
+				\begin{center}
+					\begin{center}
+						{\huge Cual es el Ciclo de Vida del Software?}
+					\end{center}
+					
+					\begin{itemize}
+					\pause
+						\item A grandes rasgos, concluyó que el ciclo de vida de un sistema de software comienza en el momento que se concibe su idea o necesidad.\pause
+						\item Momento en el que ya es necesario comenzar a actuar de manera ortodoxa para describir el ámbito del problema y las soluciones posibles.\pause
+						\item El ciclo de vida comprende el desarrollo, mantenimiento y operación y no concluye hasta que el sistema deja de utilizarse y es definitivamente retirado \ldots
+					\end{itemize}
+				\end{center}
 			\end{frame}
 			
-		\subsection{Desarrollo1}
-			\begin{frame}{Desarrollo1}
-				contenido Desarrollo1
+			
+			\subsection{ISO/IEC12207}
+			\begin{frame}{Conceptos}
+				\begin{itemize}
+					\item ¿A quien esta dirigida?
+					\begin{itemize}
+						\item La norma esta concebida para ser aplicada a ambas partes implicadas en el negocio (cliente – vendedor) o solo a unas de ellas para ser usada como contralor.
+					\end{itemize}
+					
+					\item Cualquier organización que imponga el uso de esta norma es responsable de especificar \underline{un grupo mínimo} de:
+				
+					\begin{itemize}
+						\item Procesos
+						\item Actividades
+						\item Tareas
+					\end{itemize}
+				
+					\item No existen certificaciones para el estándar
+				\end{itemize}
 			\end{frame}
 
-		\subsection{Desarrollo2}
-			\begin{frame}{Desarrollo2}
-				contenido Desarrollo2
+			\begin{frame}{Vision}
+				\begin{itemize}
+					\item Aporta una visión global de los procesos.
+					\item Los procesos establecen la arquitectura del ciclo de vida. Pero no dependen de ningún ciclo de vida concreto.
+					\item Las organizaciones son la encargadas de seleccionar y aplicar los métodos que entiendan convenientes para llevar a cabo las actividades y tareas
+				\end{itemize}
 			\end{frame}
+			
+			\begin{frame}{Los Procesos}
+			\begin{itemize}
+				 \item Modularidad
+				 \begin{itemize}
+				 \item Maximamente cohesivos y minimamente acoplados 
+				 \end{itemize}				  
+				 \item Responsabilidad
+				 \begin{itemize}
+				 \item Se considera que cada proceso es responsable por una parte del ciclo de vida del software.
+				 \end{itemize}
+				 \end{itemize}
+			\end{frame}
+			
+			\begin{frame}{Los Procesos}
+			\begin{itemize}
+			\item la calidad es considerada desde el principio del ciclo de vida.
+			\item El estándar implementa los principios de TQM (Total Quality Management)
+			\item Cada proceso tiene asociado un ciclo PDCA (plan-do-check-act).
+			\item Procesos de soporte relacionados
+			\begin{itemize}
+			\item validación y verificación 
+			\item Aseguramiento de la calidad
+			\end{itemize}
+			\end{itemize}
+			\end{frame}
+			
+			\begin{frame}{Procesos Principales}
+			\begin{itemize}
+			\item Sirven a las partes principales.
+			\item Partes principales
+			\begin{itemize}
+			\item Adquiriente
+			\item Proveedor
+			\item Desarrollador
+			\item Operador
+			\item Responsable de mantenimiento
+			\end{itemize}
+			\end{itemize}
+			\end{frame}
+			
+			\begin{frame}{Procesos de Adquisicion}
+			\begin{itemize}
+			\item Identificar la necesidad, preparar una solicitud y seleccionar un proveedor. Gestionar el proceso. 
+			\item Actividades
+			
+			\begin{itemize}
+			\item Inicio
+			\item Preparación de solicitud de propuestas
+			\item Preparación y actualización del contrato
+			\item Seguimiento del proveedor
+			\item Aceptación y finalización
+			\end{itemize}
+			\end{itemize}
+			\end{frame}
+			
+			\begin{frame}{Procesos de Suministro}
+			\begin{itemize}
+			\item Determinar procedimientos y recursos para gestionar el proyecto.
+			\item Actividades
+			
+			\begin{itemize}
+			\item Inicio
+			\item Preparación de la respuesta
+			\item Contrato
+			\item Planificación
+			\item Ejecución y control
+			\item Revisión y evaluación
+			\item Entrega y finalización
+			\end{itemize}
+			\end{itemize}
+
+			\end{frame}
+			
+			\begin{frame}{Proceso de Desarrollo(I)}
+			\begin{itemize}
+			\item Cubre la operación del producto software y apoyo a los usuarios. Las actividades y tareas hacen referencia al sistema.
+			\item Actividades
+			
+			\begin{itemize}
+			\item Implementación del proceso
+			\item Pruebas de operación
+			\item Operación del sistema
+			\item Soporte al usuario
+			\end{itemize}
+
+			\end{itemize}
+			\end{frame}
+			
+			
+			\begin{frame}{Proceso de Desarrollo(II)}
+			\begin{itemize}
+			\item Actividades
+			
+			\begin{itemize}
+		 	\item Diseño detallado del software
+			\item Codificación y pruebas del sofware
+			\item Integración del software
+			\item Pruebas de calificación del software
+			\item Integración del sistema
+			\item Pruebas de calificación del sistema
+			\item Instalación del software
+			\item Apoyo a la aceptación de software
+			\end{itemize}
+
+			\end{itemize}
+			\end{frame}
+			
+			\begin{frame}{Proceso de Operacion}
+			\begin{itemize}
+			\item Cubre la operación del producto software y apoyo a los usuarios. Las actividades y tareas hacen referencia al sistema.
+			\item Actividades
+			
+			\begin{itemize}
+			\item Implementación del proceso
+			\item Pruebas de operación
+			\item Operación del sistema
+			\item Soporte al usuario 
+			\end{itemize}
+
+			\end{itemize}
+			\end{frame}
+			
+			\begin{frame}{Proceso de Mantenimiento}
+			
+			\begin{itemize}
+			\item Modificar el producto software preservando su integridad. Incluye la migración y retirada del producto.
+			\item Actividades
+			
+			\begin{itemize}
+			\item Implementación del proceso
+			\item Análisis de problemas y modificaciones
+			\item Implementación de las modificaciones
+			\item Revisión/aceptación del mantenimiento
+			\item Migración
+			\item Retirada de software.
+			\end{itemize}
+
+			\end{itemize}
+			
+			\end{frame}
+			
+			\begin{frame}{Proceso de Soporte}
+			\begin{itemize}
+			\item El estándar contiene un grupo de 8 procesos de soporte
+			\item Tienen como objetivo brindar soporte y apoyar a los procesos primarios, contribuyendo a la calidad y éxito del proyecto
+			\item Pueden ser invocados tanto por procesos primarios como por otro proceso de soporte
+			\item El proceso de soporte comienza con un preámbulo,al que le pueden seguir un conjunto de acciones de nivel nivel corporativo (no obligatorias), y continúa con un conjunto de actividades y tareas propias del proceso.
+			\end{itemize}
+			\end{frame}
+			
+			\begin{frame}{Procesos de Soporte}
+			\begin{itemize}
+			\item Documentación
+			\item Gestión de configuración
+			\item Aseguramiento de la calidad
+			\item Verificación
+			\item Validación
+			\item Revisión conjunta
+			\item Auditoría
+			\item Resolución de problemas
+			\end{itemize}
+			\end{frame}
+			
+			\begin{frame}{Proceso de Documentacion}
+			\begin{itemize}
+			\item El propósito de este proceso es obtener y persistir información
+			\item Actividades
+			\begin{itemize}
+			\item Implementación del proceso.
+			\item Diseño y desarrollo
+			\item Producción
+			\item Mantenimiento
+			\end{itemize}
+			\end{itemize} 
+
+			\end{frame}
+			
+			\begin{frame}{Proceso de Gestion de Configuracion}
+				\begin{itemize}
+					\item El propósito de este proceso es identificar, definir y versionar, mediante líneas bases, los elementos del sistema, así como también asegurar la completitud y correctitud de los elementos que pertenecen a la configuración, de controlar su manejo, persistencia y entrega de los mismos.
+					\item Actividades
+			
+					\begin{itemize}
+						\item Implementación del Proceso
+						\item Identificación de la Configuración
+						\item Control de la Configuración
+						\item Determinación del estado de la Configuración
+						\item Evaluación de la Configuración
+						\item Gestión de Liberaciones y Entregas
+					\end{itemize}
+			
+				\end{itemize}
+			
+			\end{frame}
+			
+			\begin{frame}{Proceso de Aseguramiento de la Calidad}
+				\begin{itemize}
+					\item El propósito de este proceso es proveer de mecanismos para objetiva e independientemente asegurar que los productos y/o servicios cumplan con los estándares y requerimientos establecidos, y que el desarrollo de otros procesos se apeguen los mas posible a lo planificado originalmente.
+					\item Actividades
+			
+					\begin{itemize}
+						\item Implementación del Proceso.
+						\item Aseguramiento del Producto.
+						\item Aseguramiento del Proceso.
+						\item Aseguramiento del Sistema de Calidad.
+					\end{itemize}
+				\end{itemize}
+			\end{frame}
+			
+			\begin{frame}{Proceso de Verificacion}
+				\begin{itemize}
+					\item El propósito de este proceso es proveer las evaluaciones referentes a la verificación de un producto o servicio de una actividad dada.
+					\item Actividades:
+					
+					\begin{itemize}
+						\item Implementación del Proceso
+						\item Verificación
+					\end{itemize}
+				\end{itemize}
+			\end{frame}
+			
+				\begin{frame}{Proceso de Validacion}
+			
+					\begin{itemize}
+						\item El propósito de este proceso es determinar si un sistema ya construido cumple con las especificaciones y requerimientos para los cuales fue realizado.
+						\item Actividades:
+			
+						\begin{itemize}
+							\item Implementación del Proceso
+							\item Validación
+						\end{itemize}
+			
+					\end{itemize}
+			
+				\end{frame}
+			
+				\begin{frame}{Revision Conjunta}
+					\begin{itemize}
+						\item El propósito de este proceso es proveer un marco que favorezca la integración entre inspector e inspeccionado.
+						\item Actividades:
+						
+						\begin{itemize}
+							\item Revisiones de la gestión del proyecto
+							\item Revisiones Técnicas
+						\end{itemize} 
+					\end{itemize}
+			
+				\end{frame}
+			
+				\begin{frame}{Proceso de Auditoria(I)}
+					\begin{itemize}
+						\item El propósito de este proceso es proveer un marco adecuado para establecer auditorias formales y contractuales sobre un determinado producto o servicio provisto.
+						\item Actividades:
+						\begin{itemize}
+							\item Implementación del Proceso
+							\item Auditoria
+						\end{itemize}
+
+					\end{itemize}
+				\end{frame}
+			
+			\begin{frame}{Proceso de Auditoria(II)}
+			
+			\begin{itemize}
+			\item Implementación del Proceso
+			
+			\begin{itemize}
+			\item Cuando se deben llevar a cabo?
+			\item Precondiciones del auditor y auditado
+			\item Recursos
+			\item Elementos participantes
+			\item Desarrollo de la misma
+			\item Finalización
+			\item Poscondiciones
+			\end{itemize}
+
+			\end{itemize}
+			
+			\end{frame}
+			
+			\begin{frame}{Proceso de Auditotira (III)}
+			
+			\huge TABLA
+			
+			\end{frame}
+			
+			\begin{frame}{Proceso de Solucion de Problemas}
+				\begin{itemize}
+					\item El propósito de este proceso es proveer mecanismos para la creación de procesos capaces de resolver problemas y tomar acciones correctivas para remover nuevos problemas detectados.
+					\item Actividades:
+			
+						\begin{itemize}
+							\item Implementación del Proceso
+							\item Solución de Problemas
+						\end{itemize}
+
+				\end{itemize}			 
+			\end{frame}
+			
+			\begin{frame}
+			\begin{itemize}
+			\item Las actividades y tareas son responsabilidad de la organización que usa dicho proceso. Esta organización se asegura que el proceso existe y es operativo. Los Procesos de la Organización ayudan en establecer, controlar y mejorar otros procesos.
+			\end{itemize}
+			
+			\end{frame}
+			
+			\begin{frame}{Procesos de la Organización}
+				\begin{itemize}
+					\item Gestión
+					\item Infraestructura
+					\item Mejora
+					\item Formación
+				\end{itemize}
+			\end{frame}
+			
+			\begin{frame}{Gestion}
+				\begin{itemize}
+					\item El propósito de este proceso es proveer actividades y tareas genéricas que pueden emplearse y ajustarse para gestionar otros procesos.
+					\item Actividades:
+					
+					\begin{itemize}
+						\item Inicio y Definición de Alcance
+						\item Planificación
+						\item Ejecución y Control
+						\item Revisión y Evaluación
+						\item Terminación
+					\end{itemize}
+				\end{itemize}
+			\end{frame}
+			
+			
 			
 \section{Conclusi\'on}
 	\begin{frame}{Conclusión}

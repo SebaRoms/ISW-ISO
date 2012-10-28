@@ -7,7 +7,6 @@
 \beamer@sectionintoc {2}{ISO/IEC 12207}{40}{0}{2}
 \beamer@subsectionintoc {2}{1}{Introducci\'on}{40}{0}{2}
 \beamer@subsectionintoc {2}{2}{Historia}{43}{0}{2}
-\beamer@subsectionintoc {2}{3}{Desarrollo1}{44}{0}{2}
-\beamer@subsectionintoc {2}{4}{Desarrollo2}{45}{0}{2}
-\beamer@sectionintoc {3}{Conclusi\'on}{46}{0}{3}
-\beamer@sectionintoc {4}{Bibliograf\'ia}{47}{0}{4}
+\beamer@subsectionintoc {2}{3}{ISO/IEC12207}{49}{0}{2}
+\beamer@sectionintoc {3}{Conclusi\'on}{75}{0}{3}
+\beamer@sectionintoc {4}{Bibliograf\'ia}{76}{0}{4}
