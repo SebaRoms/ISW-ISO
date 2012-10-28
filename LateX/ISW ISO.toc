@@ -4,10 +4,10 @@
 \beamer@subsectionintoc {1}{1}{Introducci\'on}{3}{0}{1}
 \beamer@subsectionintoc {1}{2}{Historia}{9}{0}{1}
 \beamer@subsectionintoc {1}{3}{PSP}{14}{0}{1}
-\beamer@sectionintoc {2}{ISO/IEC 12207}{33}{0}{2}
-\beamer@subsectionintoc {2}{1}{Introducci\'on}{33}{0}{2}
-\beamer@subsectionintoc {2}{2}{Historia}{34}{0}{2}
-\beamer@subsectionintoc {2}{3}{Desarrollo1}{35}{0}{2}
-\beamer@subsectionintoc {2}{4}{Desarrollo2}{36}{0}{2}
-\beamer@sectionintoc {3}{Conclusi\'on}{37}{0}{3}
-\beamer@sectionintoc {4}{Bibliograf\'ia}{38}{0}{4}
+\beamer@sectionintoc {2}{ISO/IEC 12207}{39}{0}{2}
+\beamer@subsectionintoc {2}{1}{Introducci\'on}{39}{0}{2}
+\beamer@subsectionintoc {2}{2}{Historia}{40}{0}{2}
+\beamer@subsectionintoc {2}{3}{Desarrollo1}{41}{0}{2}
+\beamer@subsectionintoc {2}{4}{Desarrollo2}{42}{0}{2}
+\beamer@sectionintoc {3}{Conclusi\'on}{43}{0}{3}
+\beamer@sectionintoc {4}{Bibliograf\'ia}{44}{0}{4}

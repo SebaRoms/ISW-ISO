@@ -1,4 +1,3 @@
-%preambulo
 \documentclass[]{beamer}
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
@@ -71,7 +70,21 @@
 		\subsection{PSP}
 			\begin{frame}{PSP}
 				\textbf{Personal Software Process}, que en español significa \textbf{Proceso Personal de Software} (PSP), es un conjunto de buenas pr\'acticas las cuales se enfocan al control del tiempo y en la productividad de los Ingenieros en Software, ya sea en la mantencion de sistemas o en tareas de desarrollo.
+				\\ \smallskip
+				PSP fue diseñado para ayudar a los profesionales del software para que utilicen constantemente prácticas sanas de ingeniería del software, enseñándoles a planificar y dar seguimiento a un trabajo, utilizar un proceso bien definido y medido, a establecer metas mesurables y finalmente a rastrear constantemente para obtener las metas definidas.
 			\end{frame}
+			
+			\begin{frame}{Principios de PSP}
+				Personal Software Process, se caracteriza porque es de uso personal, es por esto que se definen principios enfocados a la individualidad:				
+				\begin{itemize}
+					\smallskip
+					\item Cada ingeniero es diferente, para ser más eficiente, debe planificar su trabajo basándose en su experiencia personal.\\ \pause
+					\item Cada ingeniero debe utilizar procesos bien definidos y mesurables.\\ \pause
+					\item Los ingenieros deben asumir la responsabilidad personal de la calidad de sus productos.\\ \pause
+					\item Cuanto antes se detecten y corrijan los errores, menor será el esfuerzo necesario para cumplir la meta.\\ \pause
+					\item Es más efectivo prevenir los defectos, que detectarlos y corregirlos.\\
+				\end{itemize}
+			\end{frame}						
 			
 			\begin{frame}{PSP}
 				\textbf{PSP} no es un est\'andar, es m\'as bien un alternativa que permite mejorar la forma en la que se construye el software, pero con un enfoque ``individual'', por lo que es muy recomendada para los desarrolladores que estén interesados en mejorar en lo que llamamos ``desarrollo individual''.
@@ -84,94 +97,115 @@
 				\begin{enumerate}
 					\item Los ingenieros deben ser entrenados por un instructor calificado de PSP. \\ \smallskip \pause
 					\item La Capacitacion es sobre grupos o equipos, y seran grupos que asi lo han sido y seguiran siendo. \\ \smallskip \pause
-					\item Requiere un fuerte soporte de administración, en este sentido es necesario que los administradores entiendan el PSP, saber como apoyarlos y como monitorear sus avances, sin un adecuado monitoreo los ingenieros caeran otra vez en los malos habitos. \\ \smallskip \pause
-					\item Después de ser bien entrenados y bien administrados lo que sigue es optimizar la interaccion entre equipos y aquí entraría Team Software Process, el TSP extiende y refina los metodos de CMM y PSP sobre desarrollo y mantenimiento de equipos, y llegar a lo que se le llama un equipo autodirigido. \\ \smallskip
+					\item Requiere un fuerte soporte de administración, en este sentido es necesario que los administradores entiendan PSP, saber como apoyarlos y como monitorear sus avances, sin un adecuado monitoreo los ingenieros caerán otra vez en los malos hábitos. \\ \smallskip \pause
+					\item Después de ser bien entrenados y bien administrados lo que sigue es optimizar la interacción entre equipos y aquí entraría Team Software Process, el TSP extiende y refina los metodos de CMM y PSP sobre desarrollo y mantenimiento de equipos, y llegar a lo que se le llama un equipo autodirigido. \\ \smallskip
 				\end{enumerate}
-			\end{frame}		
+			\end{frame}
 			
 			\begin{frame}{Ciclo de Vida de PSP}
-				Personal Software Process (PSP), tiene un ciclo de vida el cual consta de 7 fases, las cuales son fundamentales para el desarrollo de esta metodología: \\ \pause
-				\begin{enumerate}
+				Personal Software Process, tiene un ciclo de vida el cual consta de 5 fases principales, las cuales son fundamentales para el desarrollo de esta metodología: \\ \pause
+				\begin{enumerate}		
 					\item Planeación \pause
 					\item Diseño de Alto Nivel \pause
 					\item Revisión de Alto Nivel \pause
 					\item Desarrollo Ciclico \pause
-					\item Post Mortem \pause
-					\item Integración \pause
-					\item Pruebas
+					\item Post Mortem
 				\end{enumerate}
-			\end{frame}								
+			\end{frame}											
 				
 			\begin{frame}{Fase de Planeación}
-				\begin{block}{Input}
+				\begin{block}{Entrada}
 					Descripción del problema, resumen del proyecto, resumen cíclico, tamaño estimado, tiempo estimado, formas de planeación.
 				\end{block}
 				\begin{block}{Actividad}
 					Requerimientos, tamaño estimado, desarrollo estrategia, estimados de recursos, planificación y programas de tareas, estimación de defectos.
 				\end{block}
-				\begin{block}{Output}
+				\begin{block}{Salida}
 					Diseño conceptual, resumen plan, resumen del ciclo, patrones de estimados de tamaño y planeación de tareas, programas de patrones de planeación, registro de tiempos.
 				\end{block}
 			\end{frame}
 			
 			\begin{frame}{Fase de Diseño de Producto}
-				\begin{block}{Input}
-					Tipificación requerimientos, diseño conceptual, patrones de estimaciones de tamaño, resumen parte ciclico, seguimiento, etc \ldots
+				\begin{block}{Entrada}
+					Tipificación requerimientos, diseño conceptual, patrones de estimaciones de tamaño, resumen parte ciclico, seguimiento.
 				\end{block}
 				\begin{block}{Actividad}
-					Especificaciones externas, diseño modular, prototipos, estrategia de desarrollo y documentación.
+					Especificaciones externas, diseño modular, prototipos, estrategia de desarrollo y documentación, seguimiento.
 				\end{block}
-				\begin{block}{Output}
+				\begin{block}{Salida}
 					Diseño de programa, escenarios operacionales, especificación de funciones y lógica, resumen cíclico, seguimiento y estrategias de pruebas.
-
 				\end{block}
 			\end{frame}
 
 			\begin{frame}{Fase Revisión o Validación del Diseño}
-				\begin{block}{Input}
+				\begin{block}{Entrada}
 					Programa de diseño, escenarios operacionales, especificación de funciones y lógica, resumen ciclico, seguimiento y estrategia de pruebas y ciclo.
 				\end{block}
 				\begin{block}{Actividad}
 					Diseño de apariencia, verificación de máquinas y lógica, consistencia del diseño, reuso, estrategia de verificación, detectar errores.
 				\end{block}
-				\begin{block}{Output}
+				\begin{block}{Salida}
 					Diseño de alto nivel, registro de seguimiento, tiempos y defectos.
 				\end{block}
 			\end{frame}
 			
 			\begin{frame}{Fase de Desarrollo o Implementación}
-				\begin{block}{Input}
+				\begin{block}{Entrada}
 					Diseño de alto nivel, registro de seguimiento, tiempos y defectos, ciclo de desarrollo, estrategia de pruebas, patrones de operación y función.
 				\end{block}
 				\begin{block}{Actividad}
 					Diseño de módulos, revisión de diseño, código, revisión de código, compilación, pruebas, aseguramiento de calidad y del ciclo.
 				\end{block}
-				\begin{block}{Output}
+				\begin{block}{Salida}
 					Modulos de sw, patrón de diseño, lista de verificación de código y diseño, resumen del ciclo, patrón de reporte de pruebas, registro de tiempo, defectos y seguimiento.
 				\end{block}
 			\end{frame}			
 			
 			\begin{frame}{Fase PostMortem, Evaluación Ciclo}
-				\begin{block}{Input}
+				\begin{block}{Entrada}
 					Definición de problema y requerimientos, plan de proyecto y de ciclo, producto de software, patrón de diseño, lista de verificación de código y diseño, resumen del ciclo, patrón de reporte de pruebas, registro de tiempo, defectos y seguimiento.
 				\end{block}
 				\begin{block}{Actividad}
 					Defectos previstos, removidos, tamaño, tiempo del producto.
 				\end{block}
-				\begin{block}{Output}
+				\begin{block}{Salida}
 					Producto, listas de verificación, plan de proyecto y ciclo, patrón de reporte de pruebas y diseño, forma con propuesta de mejora, registro seguimiento pruebas y tiempo.
 				\end{block}
+			\end{frame}				
+					
+			\begin{frame}{Ciclo de Vida}
+				\begin{figure}								
+					\scalebox{0.5}{\includegraphics{Imagenes/Ciclo.png}} \caption{Ciclo de Vida PSP}
+				\end{figure}			
+			\end{frame}
+			
+			\begin{frame}{Requisitos}
+				En está fase se definen los requisitos los cuales son definidos claramente en psp como:
+					\begin{itemize}
+						\item Descripción del problema.
+						\item Especificación de componentes.
+						\item Formas de procesos.
+						\item Estimadores del tamaño del producto y tiempos en base a historicos.
+					\end{itemize}
 			\end{frame}					
+			
+			\begin{frame}{Ciclo de Vida}
+				\begin{figure}								
+					\scalebox{0.5}{\includegraphics{Imagenes/Ciclo.png}} \caption{Ciclo de Vida PSP}
+				\end{figure}			
+			\end{frame}						
 			
 \section{ISO/IEC 12207}
 		\subsection{Introducci\'on}
 			\begin{frame}{Introducci\'on}
-				contenido introducción
+				La ISO (Organización Internacional de Normalización), es el organismo encargado de promover el desarrollo de normas internacionales de fabricación (tanto de productos como de servicios), comercio y comunicación para todas las ramas industriales a excepción de la eléctrica y la electrónica. Su función principal es la de buscar la estandarización de normas de productos y seguridad para las empresas u organizaciones (públicas o privadas) a nivel internacional.\\ \smallskip
+				La IEC (Comisión Electrotecnica Internacional), es una organización de normalización en los campos eléctricos, eléctronicos, y tecnologías relacionadas.\\ \smallskip
+				A la IEC se le debe el desarrollo y difusión de los estandares para algunas unidades de medida tales como Gauss, Hercio, Weber; Así como la propuesta de una sistema de unidades estándar. Numerosas Normas se desarrollan en conjunto con la ISO (normas ISO/IEC).
 			\end{frame}
 		
 		\subsection{Historia}
 			\begin{frame}{Historia}
-				contenido historia ISO
+				
 			\end{frame}
 			
 		\subsection{Desarrollo1}
