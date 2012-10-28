@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.8.17)  28 OCT 2012 20:19
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.8.17)  28 OCT 2012 20:30
 entering extended mode
  %&-line parsing enabled.
 **"ISW ISO.tex"
@@ -1145,38 +1145,23 @@ las metas definidas.
 
 ] [20
 
-] <Imagenes/Orga.jpg, id=764, 863.225pt x 401.5pt>
+] <Imagenes/Orga.jpg, id=752, 863.225pt x 401.5pt>
 File: Imagenes/Orga.jpg Graphic file (type jpg)
 
 <use Imagenes/Orga.jpg> [21
 
- <./Imagenes/Orga.jpg>]
-Overfull \vbox (6.48668pt too high) detected at line 114
- []
+ <./Imagenes/Orga.jpg>] [22
 
-[22
+] [23
 
-]
-Overfull \vbox (6.48668pt too high) detected at line 114
- []
+] [24
 
-[23
-
-]
-Overfull \vbox (6.48668pt too high) detected at line 114
- []
-
-[24
-
-]
-Overfull \vbox (6.48668pt too high) detected at line 114
- []
-
-[25
+] [25
 
 ] [26
 
-] [27
+]
+[27
 
 ] [28
 
@@ -1197,24 +1182,17 @@ Overfull \vbox (6.48668pt too high) detected at line 114
 ] [36
 
 ]
-<Imagenes/Ciclo.png, id=1297, 458.46281pt x 323.70938pt>
+<Imagenes/Ciclo.png, id=1285, 458.46281pt x 323.70938pt>
 File: Imagenes/Ciclo.png Graphic file (type png)
 
-<use Imagenes/Ciclo.png>
-Overfull \vbox (5.35617pt too high) detected at line 191
- []
-
-[37
+<use Imagenes/Ciclo.png> [37
 
  <./Imagenes/Ciclo.png (PNG copy)>] [38
 
 ]
 File: Imagenes/Ciclo.png Graphic file (type png)
- <use Imagenes/Ciclo.png>
-Overfull \vbox (5.35617pt too high) detected at line 207
- []
 
-[39
+<use Imagenes/Ciclo.png> [39
 
 ] [40
 
@@ -1300,13 +1278,19 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 
 ] [75
 
+] [76
+
+] [77
+
+] [78
+
 ]
-Overfull \hbox (84.57689pt too wide) in paragraph at lines 650--650
+Overfull \hbox (84.57689pt too wide) in paragraph at lines 688--688
 \OT1/cmss/m/n/10.95 http://es.pdfsb.com/readonline/5a56464364516835575846394358
 706755554d3d- 
  []
 
-[76
+[79
 
  </usr/share/texmf/tex/latex/beamer/base/art/beamericonarticle.pdf>]
 \tf@nav=\write6
@@ -1326,28 +1310,22 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 15924 strings out of 495061
- 293542 string characters out of 1182621
+ 15928 strings out of 495061
+ 293553 string characters out of 1182621
  367948 words of memory out of 3000000
  18510 multiletter control sequences out of 15000+50000
  11163 words of font info for 41 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  49i,20n,62p,504b,768s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Outline0.2.5.51} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.2.4.50} has been referenced but does not e
-xist, replaced by a fixed one
-
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share
-/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-texl
-ive/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-texlive/fonts/t
-ype1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/type1/public/
-amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
-cm/cmssi10.pfb>
-Output written on "ISW ISO.pdf" (76 pages, 751979 bytes).
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
+s/cm/cmssi10.pfb>
+Output written on "ISW ISO.pdf" (79 pages, 758699 bytes).
 PDF statistics:
- 2750 PDF objects out of 2984 (max. 8388607)
- 167 named destinations out of 1000 (max. 500000)
- 199 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2771 PDF objects out of 2984 (max. 8388607)
+ 171 named destinations out of 1000 (max. 500000)
+ 183 words of extra memory for PDF output out of 10000 (max. 10000000)
 
