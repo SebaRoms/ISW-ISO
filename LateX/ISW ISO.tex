@@ -204,7 +204,12 @@
 				\begin{figure}								
 					\scalebox{0.5}{\includegraphics{Imagenes/Ciclo.png}} \caption{Ciclo de Vida PSP}
 				\end{figure}			
-			\end{frame}						
+			\end{frame}
+			
+			%%%%PSP%%%%			
+			
+			
+			%%%%%ISO/IEC 12207%%%				
 			
 \section{ISO/IEC 12207}
 		\subsection{Introducci\'on}
@@ -237,35 +242,35 @@
 						\item Su principal motivación fue establecer un marco de trabajo común a la ingeniería del software. Aplicable a la Ingeniería y a la gestión.
 					\end{itemize}
 				\end{frame}
-				
+				\subsection{ISO/IEC12207}
 				\begin{frame}{ISO/IEC 12207}
-					\begin{block}{Definición}
+					\begin{definition}
 						Es el estándar para los procesos de ciclo de vida del software de la organización ISO
-					\end{block}
+					
+					\end{definition}
 				\end{frame}
 				
-				\begin{frame}
+				\begin{frame}{Ciclo de Vida del Software}
 				\begin{center}
 					\begin{center}
-						{\huge Cual es el Ciclo de Vida del Software?}
+						{\huge Cu\'al es el Ciclo de Vida del Software?}
 					\end{center}
 					
 					\begin{itemize}
 					\pause
-						\item A grandes rasgos, concluyó que el ciclo de vida de un sistema de software comienza en el momento que se concibe su idea o necesidad.\pause
-						\item Momento en el que ya es necesario comenzar a actuar de manera ortodoxa para describir el ámbito del problema y las soluciones posibles.\pause
-						\item El ciclo de vida comprende el desarrollo, mantenimiento y operación y no concluye hasta que el sistema deja de utilizarse y es definitivamente retirado \ldots
+						\item Por concenso se toma en cuenta que el ciclo de vida de un software comienza en el momento que se concibe su idea o necesidad.\pause
+						\item Luego es necesario comenzar a actuar de manera ortodoxa para describir el ámbito del problema y las soluciones posibles.\pause
+						\item Para terminar, el ciclo comprende al desarrollo, mantenimiento y operación, sin concluir hasta que el software deja de utilizarse y es definitivamente retirado.
 					\end{itemize}
 				\end{center}
 			\end{frame}
 			
 			
-			\subsection{ISO/IEC12207}
-			\begin{frame}{Conceptos}
+			\begin{frame}{ISO/IEC 12207}
 				\begin{itemize}
 					\item ¿A quien esta dirigida?
 					\begin{itemize}
-						\item La norma esta concebida para ser aplicada a ambas partes implicadas en el negocio (cliente – vendedor) o solo a unas de ellas para ser usada como contralor.
+						\item La norma esta concebida para ser aplicada a ambas partes implicadas en el negocio (cliente – vendedor).
 					\end{itemize}
 					
 					\item Cualquier organización que imponga el uso de esta norma es responsable de especificar \underline{un grupo mínimo} de:
@@ -290,91 +295,83 @@
 			
 			\begin{frame}{Los Procesos}
 				\begin{itemize}
-				 	\item Modularidad
-					 \begin{itemize}
-				 		\item Maximamente cohesivos y minimamente acoplados 
-				 	 \end{itemize}				  
-					 \item Responsabilidad
+				 	\item Modularidad\\
 				 	\begin{itemize}
-						 \item Se considera que cada proceso es responsable por una parte del ciclo de vida del software.
+				 		\item Maximamente cohesivos y minimamente acoplados.
+				 	\end{itemize}	  
+				 	\item Responsabilidad\\
+				 	\begin{itemize}
+				 		\item Se considera que cada proceso es responsable por una parte del ciclo de vida del software.\\
 				 	\end{itemize}
 				 \end{itemize}
 			\end{frame}
 			
 			\begin{frame}{Los Procesos}
 				\begin{itemize}
-					\item la calidad es considerada desde el principio del ciclo de vida.
+					\item La calidad es considerada desde el principio del ciclo de vida.
 					\item El estándar implementa los principios de TQM (Total Quality Management)
 					\item Cada proceso tiene asociado un ciclo PDCA (plan-do-check-act).
 					\item Procesos de soporte relacionados
 					\begin{itemize}
-						\item validación y verificación 
+						\item Validación y verificación 
 						\item Aseguramiento de la calidad
 					\end{itemize}
 				\end{itemize}
 			\end{frame}
 			
 			\begin{frame}{Procesos Principales}
+				A modo general la estandarización se divide en 5 procesos principales, los cuales son :  
 				\begin{itemize}
-					\item Sirven a las partes principales.
-					\item Partes principales
-					\begin{itemize}
-						\item Adquiriente
-						\item Proveedor
-						\item Desarrollador
-						\item Operador
-						\item Responsable de mantenimiento
-					\end{itemize}
+					\item Adquiriente
+					\item Proveedor
+					\item Desarrollador
+					\item Operador
+					\item Responsable de mantenimiento
 				\end{itemize}
 			\end{frame}
 			
-			\begin{frame}{Procesos de Adquisicion}
+			\begin{frame}{Procesos de Adquisición}
+				Identificar la necesidad, preparar una solicitud y seleccionar un adquiriente(comprador). Gestionar el proceso.\\
+				
+				El proceso de adquisición se divide en las siguientes Actividades:
 				\begin{itemize}
-					\item Identificar la necesidad, preparar una solicitud y seleccionar un proveedor. Gestionar el proceso. 
-					\item Actividades
-					\begin{itemize}
-						\item Inicio
-						\item Preparación de solicitud de propuestas
-						\item Preparación y actualización del contrato
-						\item Seguimiento del proveedor
-						\item Aceptación y finalización
-					\end{itemize}
+					\item Inicio
+					\item Preparación de solicitud de propuestas
+					\item Preparación y actualización del contrato
+					\item Seguimiento del proveedor
+					\item Aceptación y finalización
 				\end{itemize}
 			\end{frame}
 			
 			\begin{frame}{Procesos de Suministro}
+				Determinar procedimientos y recursos para gestionar el proyecto.\\
+				
+				El proceso de suministro se divide en las siguientes Actividades:
 				\begin{itemize}
-					\item Determinar procedimientos y recursos para gestionar el proyecto.
-					\item Actividades
-					\begin{itemize}
-						\item Inicio
-						\item Preparación de la respuesta
-						\item Contrato
-						\item Planificación
-						\item Ejecución y control
-						\item Revisión y evaluación
-						\item Entrega y finalización
-					\end{itemize}
+					\item Inicio
+					\item Preparación de la respuesta
+					\item Contrato
+					\item Planificación
+					\item Ejecución y control
+					\item Revisión y evaluación
+					\item Entrega y finalización
 				\end{itemize}
 			\end{frame}
 			
 			\begin{frame}{Proceso de Desarrollo(I)}
+				Cubre la operación del producto software y apoyo a los usuarios. Las actividades y tareas hacen referencia al sistema.\\
+				El proceso de desarrollo se divide en las siguientes Actividades:
 				\begin{itemize}
-					\item Cubre la operación del producto software y apoyo a los usuarios. Las actividades y tareas hacen referencia al sistema.
-					\item Actividades
-					\begin{itemize}
-						\item Implementación del proceso
-						\item Pruebas de operación
-						\item Operación del sistema
-						\item Soporte al usuario
-					\end{itemize}
+					\item Implementación del proceso
+					\item Pruebas de operación
+					\item Operación del sistema
+					\item Soporte al usuario
 				\end{itemize}
 			\end{frame}
 			
 			
 			\begin{frame}{Proceso de Desarrollo(II)}
-				\begin{itemize}
-					\item Actividades
+				Mas actividades.
 					\begin{itemize}
 		 				\item Diseño detallado del software
 						\item Codificación y pruebas del sofware
@@ -385,43 +382,40 @@
 						\item Instalación del software
 						\item Apoyo a la aceptación de software
 					\end{itemize}
-				\end{itemize}
 			\end{frame}
 			
-			\begin{frame}{Proceso de Operacion}
-				\begin{itemize}
-					\item Cubre la operación del producto software y apoyo a los usuarios. Las actividades y tareas hacen referencia al sistema.
-					\item Actividades
+			\begin{frame}{Proceso de Operación}
+				Define las actividades del operador, organización que proporciona el servicio de operar un sistema informático en su entorno real, para sus usuarios.\\
+
+					El proceso de operación se divide en las siguientes Actividades:
 					\begin{itemize}
 						\item Implementación del proceso
 						\item Pruebas de operación
 						\item Operación del sistema
 						\item Soporte al usuario 
 					\end{itemize}
-				\end{itemize}
 			\end{frame}
 			
 			\begin{frame}{Proceso de Mantenimiento}
+				Modificar el producto software preservando su integridad. Incluye la migración y retirada del producto.\\
+				
+				El proceso de mantenimiento se divide en las siguientes Actividades:
 				\begin{itemize}
-					\item Modificar el producto software preservando su integridad. Incluye la migración y retirada del producto.
-					\item Actividades
-					\begin{itemize}
-						\item Implementación del proceso
-						\item Análisis de problemas y modificaciones
-						\item Implementación de las modificaciones
-						\item Revisión/aceptación del mantenimiento
-						\item Migración
-						\item Retirada de software.
-					\end{itemize}
+					\item Implementación del proceso
+					\item Análisis de problemas y modificaciones
+					\item Implementación de las modificaciones
+					\item Revisión/aceptación del mantenimiento
+					\item Migración
+					\item Retirada de software.
 				\end{itemize}
 			\end{frame}
 			
 			\begin{frame}{Proceso de Soporte}
 				\begin{itemize}
-					\item El estándar contiene un grupo de 8 procesos de soporte
+					\item El estándar contiene un grupo de 8 procesos de soporte.
 					\item Tienen como objetivo brindar soporte y apoyar a los procesos primarios, contribuyendo a la calidad y éxito del proyecto
 					\item Pueden ser invocados tanto por procesos primarios como por otro proceso de soporte
-					\item El proceso de soporte comienza con un preámbulo,al que le pueden seguir un conjunto de acciones de nivel nivel corporativo (no obligatorias), y continúa con un conjunto de actividades y tareas propias del proceso.
+					\item El proceso de soporte comienza con un preámbulo,al que le pueden seguir un conjunto de acciones de nivel corporativo (no obligatorias), y continúa con un conjunto de actividades y tareas propias del proceso.
 				\end{itemize}
 			\end{frame}
 			
@@ -439,23 +433,21 @@
 			\end{frame}
 			
 			\begin{frame}{Proceso de Documentacion}
-				\begin{itemize}
-					\item El propósito de este proceso es obtener y persistir información
-					\item Actividades
+				El propósito de este proceso es obtener y persistir información.\\
+				
+				El proceso de documentación se divide en las siguientes Actividades:
 					\begin{itemize}
 						\item Implementación del proceso.
 						\item Diseño y desarrollo
 						\item Producción
 						\item Mantenimiento
 					\end{itemize}
-				\end{itemize} 
 			\end{frame}
 			
 			\begin{frame}{Proceso de Gestion de Configuracion}
-				\begin{itemize}
-					\item El propósito de este proceso es identificar, definir y versionar, mediante líneas bases, los elementos del sistema, así como también asegurar la completitud y correctitud de los elementos que pertenecen a la configuración, de controlar su manejo, persistencia y entrega de los mismos.
-					\item Actividades
-			
+				El propósito de este proceso es identificar, definir y versionar, mediante líneas bases, los elementos del sistema, así como también asegurar la completitud y correctitud de los elementos que pertenecen a la configuración, de controlar su manejo, persistencia y entrega de los mismos.\\
+				
+				El proceso de gestion de configuración se divide en las siguientes Actividades:
 					\begin{itemize}
 						\item Implementación del Proceso
 						\item Identificación de la Configuración
@@ -463,76 +455,58 @@
 						\item Determinación del estado de la Configuración
 						\item Evaluación de la Configuración
 						\item Gestión de Liberaciones y Entregas
-					\end{itemize}
-			
-				\end{itemize}
-			
+					\end{itemize}			
 			\end{frame}
 			
 			\begin{frame}{Proceso de Aseguramiento de la Calidad}
-				\begin{itemize}
-					\item El propósito de este proceso es proveer de mecanismos para objetiva e independientemente asegurar que los productos y/o servicios cumplan con los estándares y requerimientos establecidos, y que el desarrollo de otros procesos se apeguen los mas posible a lo planificado originalmente.
-					\item Actividades
-			
+				El propósito de este proceso es proveer de mecanismos para objetiva e independientemente asegurar que los productos y/o servicios cumplan con los estándares y requerimientos establecidos, y que el desarrollo de otros procesos se apeguen los mas posible a lo planificado originalmente.\\
+				
+				El proceso de aseguramiento de la calidad se divide en las siguientes Actividades:
 					\begin{itemize}
 						\item Implementación del Proceso.
 						\item Aseguramiento del Producto.
 						\item Aseguramiento del Proceso.
 						\item Aseguramiento del Sistema de Calidad.
 					\end{itemize}
-				\end{itemize}
 			\end{frame}
 			
 			\begin{frame}{Proceso de Verificacion}
-				\begin{itemize}
-					\item El propósito de este proceso es proveer las evaluaciones referentes a la verificación de un producto o servicio de una actividad dada.
-					\item Actividades:
-					
+				El propósito de este proceso es proveer las evaluaciones referentes a la verificación de un producto o servicio de una actividad dada.\\
+				
+				El proceso de verificacion se divide en las siguientes Actividades:					
 					\begin{itemize}
 						\item Implementación del Proceso
 						\item Verificación
 					\end{itemize}
-				\end{itemize}
 			\end{frame}
 			
 				\begin{frame}{Proceso de Validacion}
-			
+					El propósito de este proceso es determinar si un sistema ya construido cumple con las especificaciones y requerimientos para los cuales fue realizado.\\
+					
+					El proceso de validacion se divide en las siguientes Actividades:
 					\begin{itemize}
-						\item El propósito de este proceso es determinar si un sistema ya construido cumple con las especificaciones y requerimientos para los cuales fue realizado.
-						\item Actividades:
-			
-						\begin{itemize}
-							\item Implementación del Proceso
-							\item Validación
-						\end{itemize}
-			
+						\item Implementación del Proceso
+						\item Validación
 					\end{itemize}
-			
 				\end{frame}
 			
 				\begin{frame}{Revision Conjunta}
+					El propósito de este proceso es proveer un marco que favorezca la integración entre inspector e inspeccionado.\\
+					El proceso de revision conjunta se divide en las siguientes Actividades:
 					\begin{itemize}
-						\item El propósito de este proceso es proveer un marco que favorezca la integración entre inspector e inspeccionado.
-						\item Actividades:
-						
-						\begin{itemize}
-							\item Revisiones de la gestión del proyecto
-							\item Revisiones Técnicas
-						\end{itemize} 
-					\end{itemize}
-			
+						\item Revisiones de la gestión del proyecto
+						\item Revisiones Técnicas
+					\end{itemize} 
 				\end{frame}
 			
 				\begin{frame}{Proceso de Auditoria(I)}
-					\begin{itemize}
-						\item El propósito de este proceso es proveer un marco adecuado para establecer auditorias formales y contractuales sobre un determinado producto o servicio provisto.
-						\item Actividades:
-						\begin{itemize}
-							\item Implementación del Proceso
-							\item Auditoria
-						\end{itemize}
-
-					\end{itemize}
+					 El propósito de este proceso es proveer un marco adecuado para establecer auditorias formales y contractuales sobre un determinado producto o servicio provisto.\\
+					 
+					 El proceso de auditoria se divide en las siguientes Actividades:
+					 \begin{itemize}
+					 	\item Implementación del Proceso
+						\item Auditoria
+					 \end{itemize}
 				\end{frame}
 			
 			\begin{frame}{Proceso de Auditoria(II)}
@@ -550,27 +524,25 @@
 				\end{itemize}
 			\end{frame}
 			
-			\begin{frame}{Proceso de Auditotira (III)}
-				\huge TABLA
+			\begin{frame}{Proceso de Auditoria (III)}
+			
+			\huge TABLA
+			
 			\end{frame}
 			
 			\begin{frame}{Proceso de Solucion de Problemas}
+				El propósito de este proceso es proveer mecanismos para la creación de procesos capaces de resolver problemas y tomar acciones correctivas para remover nuevos problemas detectados.\\
+				
+				El proceso de solucion de problemas se divide en las siguientes Actividades:
+				
 				\begin{itemize}
-					\item El propósito de este proceso es proveer mecanismos para la creación de procesos capaces de resolver problemas y tomar acciones correctivas para remover nuevos problemas detectados.
-					\item Actividades:
-			
-						\begin{itemize}
-							\item Implementación del Proceso
-							\item Solución de Problemas
-						\end{itemize}
-
+					\item Implementación del Proceso
+					\item Solución de Problemas
 				\end{itemize}			 
 			\end{frame}
 			
-			\begin{frame}
-				\begin{itemize}
-					\item Las actividades y tareas son responsabilidad de la organización que usa dicho proceso. Esta organización se asegura que el proceso existe y es operativo. Los Procesos de la Organización ayudan en establecer, controlar y mejorar otros procesos.
-				\end{itemize}
+			\begin{frame}{Procesos de la Organización}
+				Las actividades y tareas son responsabilidad de la organización que usa dicho proceso. Esta organización se asegura que el proceso existe y es operativo. Los Procesos de la Organización ayudan en establecer, controlar y mejorar otros procesos.
 			\end{frame}
 			
 			\begin{frame}{Procesos de la Organización}
@@ -582,11 +554,12 @@
 				\end{itemize}
 			\end{frame}
 			
+			
+			%%%%%%%%%%%%%%%%%%
 			\begin{frame}{Gestion}
-				\begin{itemize}
-					\item El propósito de este proceso es proveer actividades y tareas genéricas que pueden emplearse y ajustarse para gestionar otros procesos.
-					\item Actividades:
+			El propósito de este proceso es proveer actividades y tareas genéricas que pueden emplearse y ajustarse para gestionar otros procesos.\\
 					
+					El proceso de gestion se divide en las siguientes Actividades:					
 					\begin{itemize}
 						\item Inicio y Definición de Alcance
 						\item Planificación
@@ -594,75 +567,71 @@
 						\item Revisión y Evaluación
 						\item Terminación
 					\end{itemize}
-				\end{itemize}
 			\end{frame}
 			
 			\begin{frame}{Infraestructura}
+				El propósito de este proceso es definir las actividades necesarias para establecer y mantener las infraestructura (hardware, software, estándar, herramientas, etc.) necesaria por otros procesos.\\
+				
+				El proceso de infraestructura se divide en las siguientes Actividades:
 				\begin{itemize}
-					\item El propósito de este proceso es definir las actividades necesarias para establecer y mantener las infraestructura (hardware, software, estándar, herramientas, etc.) necesaria por otros procesos.
-					\item Actividades:
-					
-					\begin{itemize}
-						\item Implementación del Proceso
-						\item Establecimiento de la Infraestructura
-						\item Mantenimiento de la Infraestructura
-					\end{itemize}
-
+					\item Implementación del Proceso
+					\item Establecimiento de la Infraestructura
+					\item Mantenimiento de la Infraestructura
 				\end{itemize}
 			\end{frame}
 			
 			\begin{frame}{Mejora}
+				El propósito de este proceso es proveer de actividades básicas y de alto nivel para establecer, evaluar, medir, controlar y mejorar un proceso de ciclo de vida del software.\\
+				
+				El proceso de mejora se divide en las siguientes Actividades:
 				\begin{itemize}
-					\item El propósito de este proceso es proveer de actividades básicas y de alto nivel para establecer, evaluar, medir, controlar y mejorar un proceso de ciclo de vida del software.
-					\item Actividades:
-					\begin{itemize}
-						\item Establecimiento del proceso
-						\item Evaluación del proceso
-						\item Mejora del proceso
-					\end{itemize}
+					\item Establecimiento del proceso
+					\item Evaluación del proceso
+					\item Mejora del proceso
 				\end{itemize}
 			\end{frame}
 			
-			\begin{frame}
+			\begin{frame}{Formacion de Recursos Humanos}
+				El propósito de este proceso es proporcionar y mantener al personal capacitado.\\
+				
+				El proceso de recursos humanos se divide en las siguientes Actividades:
 				\begin{itemize}
-					\item El propósito de este proceso es proporcionar y mantener al personal capacitado.
-					\item Actividades:
-					\begin{itemize}
-						\item Implementación del Procesos
-						\item Desarrollo del Material de Formación
-						\item Implementación del Plan de Formación 
-					\end{itemize} 
-				\end{itemize}
+					\item Implementación del Procesos
+					\item Desarrollo del Material de Formación
+					\item Implementación del Plan de Formación 
+				\end{itemize} 
 			\end{frame}
 			
+			%%%%%%%%%%%%%%%%%
 			
 			
-\section{Conclusi\'on}
-	\begin{frame}{Conclusión}
-		aqu\'i va la conclusi\'on
-	\end{frame}				
 			
-\section{Bibliograf\'ia}
-	\begin{frame}{Bibliograf\'ia}
-		\begin{thebibliography}{9}
+			\section{Conclusi\'on}
+				\begin{frame}{Conclusión}
+					aqu\'i va la conclusi\'on
+				\end{frame}				
+			
+			\section{Bibliograf\'ia}
+				\begin{frame}{Bibliograf\'ia}
+					\begin{thebibliography}{9}
 		
-			%item 1		
-			\bibitem{mo02} 
- 			Victor M. Fleites Sabido 
- 			\newblock {\em Personal Software Process}, 
- 			\newblock http://www.slideshare.net/Tonymx/introduccion-a-personal-software-process.
+					%item 1		
+					\bibitem{mo02} 
+ 						Victor M. Fleites Sabido 
+ 						\newblock {\em Personal Software Process}, 
+ 						\newblock http://www.slideshare.net/Tonymx/introduccion-a-personal-software-process.
 		
-			%item 2		
-			\bibitem{sm-hin04} 
- 			Armando David Espinoza Robles
- 			\newblock{\em Metodologías de Desarrollo de Software}, 
- 			\newblock http://www.slideshare.net/juliopari/4-clase-metodologia-de-desarrolo-de-software.
+					%item 2		
+					\bibitem{sm-hin04} 
+ 						Armando David Espinoza Robles
+ 						\newblock{\em Metodologías de Desarrollo de Software}, 
+ 						\newblock http://www.slideshare.net/juliopari/4-clase-metodologia-de-desarrolo-de-software.
  			
-		http://calidadesoftware.wordpress.com/2012/02/23/personal-software-process/ 			
-		http://es.pdfsb.com/readonline/5a56464364516835575846394358706755554d3d-118608
+						http://calidadesoftware.wordpress.com/2012/02/23/personal-software-process/ 			
+						http://es.pdfsb.com/readonline/5a56464364516835575846394358706755554d3d-118608
  			
- 		http://ingsw.ccbas.uaa.mx/sitio/images/material/psp.htm
-		\end{thebibliography}
-	\end{frame}
+ 						http://ingsw.ccbas.uaa.mx/sitio/images/material/psp.htm
+					\end{thebibliography}
+				\end{frame}
 
-\end{document}
+		\end{document}
